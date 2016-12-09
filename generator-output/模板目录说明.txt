@@ -1,0 +1,24 @@
+
+1.ģ��Ŀ¼ ʹ�ù淶
+	1,2��Ŀ¼����Ŀ¼����,������ģ��Ŀ¼
+	
+2.ģ��Ŀ¼�ķ���(��ͬ��Ŀ¼�������ò�ͬ�Ķ������ɴ���)
+
+	tableĿ¼:
+		���ñ���: table 
+		������:   cn.org.rapid_framework.generator.provider.db.model.Table
+	
+	table_configĿ¼:
+		���ñ���: tableConfig 
+		������:   cn.org.rapid_framework.generator.ext.tableconfig.model.TableConfig
+		
+	operationĿ¼:
+		���ñ���: sql
+		������: cn.org.rapid_framework.generator.provider.db.sql.model.Sql
+		
+	table_config_setĿ¼:
+		���ñ���: tableConfigSet
+		������: cn.org.rapid_framework.generator.ext.tableconfig.model.TableConfigSet
+
+	shareĿ¼:
+		����Ŀ¼�����ڴ����Щ�����ģ�壬��һЩ .include�� macro.include�ļ�
