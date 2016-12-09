@@ -1,5 +1,0 @@
-message ${table.className}{
-	<#list table.columns as column>
-		optional <#if (column.javaType == "Integer")>int32<#elseif (column.javaType == "java.lang.Long")>int64<#elseif (column.javaType == "java.lang.String")>string<#elseif (column.javaType == "java.lang.Double")>double<#elseif (column.javaType == "java.util.Date")>int64</#if> ${column.columnNameFirstLower} = ${column_index+1};
-	</#list>
-}
