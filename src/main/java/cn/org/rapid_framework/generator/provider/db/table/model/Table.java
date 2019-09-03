@@ -239,6 +239,10 @@ public class Table {
 	    }
 	    return c;
 	}
+
+	public boolean isColumnExist(String name){
+		return getColumnByName(name) != null;
+	}
 	
 	public Column getColumnBySqlName(String sqlName) {
 	    for(Column c : getColumns()) {
